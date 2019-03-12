@@ -1,0 +1,205 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "ask_weather",
+        "text": "how's the weather?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather like?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather like right now?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what’s it like outside?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what's the weather forecast?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Bangkok",
+            "entity": "city"
+          }
+        ],
+        "text": "how's the weather in Bangkok?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "London",
+            "entity": "city"
+          }
+        ],
+        "text": "what's the weather like in London?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 38,
+            "end": 43,
+            "value": "Paris",
+            "entity": "city"
+          }
+        ],
+        "text": "what is the weather like right now at Paris?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "Dubai",
+            "entity": "city"
+          }
+        ],
+        "text": "what's the weather forecast for Dubai?"
+      },
+      {
+        "intent": "ask_weather",
+        "text": "what is the weather forecast?"
+      },
+      {
+        "intent": "ask_weather",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Delhi",
+            "entity": "city"
+          }
+        ],
+        "text": "how are the weather conditions in Delhi like?"
+      },
+      {
+        "intent": "give_location",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Singapore",
+            "entity": "city"
+          }
+        ],
+        "text": "i live in Singapore"
+      },
+      {
+        "intent": "give_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "New York",
+            "entity": "city"
+          }
+        ],
+        "text": "New York"
+      },
+      {
+        "intent": "give_location",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Tokyo",
+            "entity": "city"
+          }
+        ],
+        "text": "for Tokyo"
+      },
+      {
+        "intent": "give_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Chennai",
+            "entity": "city"
+          }
+        ],
+        "text": "in Chennai"
+      },
+      {
+        "intent": "give_location",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Sydney",
+            "entity": "city"
+          }
+        ],
+        "text": "in Sydney"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "sup bot"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
